@@ -35,5 +35,7 @@ I am a technical writer with four years of experirence in the software industry,
   - **Friction**: I tried viewing the localhost, but it wasn't working. Docker says Kong Gateway is running, so I have to Google to figure out what's going wrong. I had to restart the container in Docker. For some reason, it was saying the localhost was already assigned but then the problem went away on its own.
 - Set Up and Access Dev Portal
   - **Harmony/Friction**: Everything went really well except it's taking forever to get approved to access my private Dev Portal? I just enabled public so it was faster.
+
+### Using Kong with plugins
 -  Configure Plugin on a Service
   -  **Observation**: I decided to go here next based on the suggestion at the end of the Dev Portal page in the quickstart. I skipped API spec in the quickstart guide since I already kind of did that in the previous step.
