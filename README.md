@@ -32,4 +32,6 @@ I am a technical writer with four years of experirence in the software industry,
 - Implement and Test a Service
   - **Observation**: The 6 Advanced Fields section only had five fields and Tags didn't have any default tags (unless no tags = the default).
   - **Friction**: I got an error when I tried to create the implementation because I didn't realize there were naming restrictions (ex. no spaces in my case) for the Name field.
-  - **Friction**: I tried viewing the localhost, but it wasn't working. Docker says Kong Gateway is running, so I have to Google to figure out what's going wrong.
+  - **Friction**: I tried viewing the localhost, but it wasn't working. Docker says Kong Gateway is running, so I have to Google to figure out what's going wrong. I had to restart the container in Docker. For some reason, it was saying the localhost was already assigned but then the problem went away on its own.
+- Set Up and Access Dev Portal
+  - 
