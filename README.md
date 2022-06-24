@@ -27,5 +27,9 @@ I am a technical writer with four years of experirence in the software industry,
   - **Observation**: "Set up a New Runtime Instance" step 2, what if I don't have a runtime group already configured? Or will you always have the "default" one configured? 
   - **Observation**: "Once the script has finished running, the runtime instances table will include a new entry for your instance and the tag in the Sync Status column should say Connected." Mine says "In sync".
 - Configuring a Service
-  - **Friction**: Step 5 says to click "Create", but all I had was "Save" and it didn't redirect me to the new Service.
+  - **Friction**: Step 5 says to click "Create", but all I had was "Save" and it didn't redirect me to the new Service. (this was a bug that resolved itself)
   - **Observation**: The "Create a Service version" section is written in a way that implies you are already on the Service overview page. If this section was separated, it could possibly be reused if we wrote it like you were just in Konnect after a login, not necessarily like you had just finished the previous workflow. Do customers do the whole quickstart in one go or would they log out and come back to it? 
+- Implement and Test a Service
+  - **Observation**: The 6 Advanced Fields section only had five fields and Tags didn't have any default tags (unless no tags = the default).
+  - **Friction**: I got an error when I tried to create the implementation because I didn't realize there were naming restrictions (ex. no spaces in my case) for the Name field.
+  - **Friction**: I tried viewing the localhost, but it wasn't working. Docker says Kong Gateway is running, so I have to Google to figure out what's going wrong.
