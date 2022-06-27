@@ -39,3 +39,7 @@ I am a technical writer with four years of experirence in the software industry,
 ### Using Kong with plugins
 -  Configure Plugin on a Service
   -  **Observation**: I decided to go here next based on the suggestion at the end of the Dev Portal page in the quickstart. I skipped API spec in the quickstart guide since I already kind of did that in the previous step.
+  - **Observation**: Would a user need more guidance about where to navigate exactly for "Open a Service version."? It took me a little while to figure out where to go.
+  - **Observation**: "If you don’t see the Plugins section, create an implementation first." I think this should be a requirement so users can make sure it's done right away rather than having to navigate away from what they were doing and then go back.
+  - I went with Key Auth for my first plugin.
+  - **Harmony**: Between the docs and the fact that the settings for the plugin were pretty much auto configured in the UI, it was really easy to set up! I'm just not sure what to do with all the parameters and additional settings that are in the doc, but that could just be my lack of tech experience. I went back into the plugin view and I think I can copy the JSON and make my edits to the params and re-upload it?
