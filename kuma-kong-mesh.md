@@ -3,6 +3,8 @@
 The purpose of this is to investigate Kong's service mesh documentation (Kuma and Kong Mesh), navigate through the workflows, learn about the technology,
 and record things that were successful or trip me up. 
 
+_Note:_ Make a column in the IA rework for persona?
+
 ## Initial research
 
 - Started by first researching "what is a service mesh" to learn about the tech. First (non-ad) article was this: https://linkerd.io/what-is-a-service-mesh/
