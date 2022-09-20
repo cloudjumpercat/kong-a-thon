@@ -27,6 +27,7 @@ _Note:_ Make a column in the IA rework for persona?
 - The "Explore....demo app" pages seem to just rehash what was in the README, but more details and better. Can we just direct to those instead because the README was pretty confusing?
 - For metric visualization, we mention Prometheus and Grafana. Should/can we also mention Gateway (or Konnect) as a place to view those metrics? 
 - The "Overview" page in the Explore section feels like it's repeating info from the Intro section. Or at least the first part did.
+- I'm a bit confused how the gateways, DPs, ingress, and egress all fit together. I'd like that to be described in the beginning and part of a diagram.
 
 ## Kong Mesh docs
 
