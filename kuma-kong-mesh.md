@@ -26,3 +26,26 @@ _Note:_ Make a column in the IA rework for persona?
 - **Friction:** It feels like this (and the other install topics) have a lot of steps that assume knowlege of things (ex. how to pull Docker images, what kind of deployment you want, how to install K8s dependencies, etc.). I'm not sure if it's fair or not to assume that kind of knowledge.
 - The "Explore....demo app" pages seem to just rehash what was in the README, but more details and better. Can we just direct to those instead because the README was pretty confusing?
 - For metric visualization, we mention Prometheus and Grafana. Should/can we also mention Gateway (or Konnect) as a place to view those metrics? 
+- The "Overview" page in the Explore section feels like it's repeating info from the Intro section. Or at least the first part did.
+
+## Kong Mesh docs
+
+- **Friction:** The "Enterprise" section isn't necessary. Mesh is only enterprise. Since "Plan and Deploy" only contains a License page, that also leads me to believe there are no "free" features at all. All you could do is install Mesh.
+
+## IA thoughts
+
+- Introduction
+  - What is service mesh?
+  - What is Kuma?
+  - Release notes
+  - Compatiblity
+  - Stages of software availability
+  - Default ports (https://kuma.io/docs/1.8.x/networking/networking/#kuma-cp-ports)  
+- Getting Started
+  - Install
+  - Deploy
+- Observability
+- Multi-cluster service discovery
+- Zero trust communication
+- Reference
+  - CLI
