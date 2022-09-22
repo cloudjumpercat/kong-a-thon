@@ -28,6 +28,8 @@ _Note:_ Make a column in the IA rework for persona?
 - For metric visualization, we mention Prometheus and Grafana. Should/can we also mention Gateway (or Konnect) as a place to view those metrics? 
 - The "Overview" page in the Explore section feels like it's repeating info from the Intro section. Or at least the first part did.
 - I'm a bit confused how the gateways, DPs, ingress, and egress all fit together. I'd like that to be described in the beginning and part of a diagram.
+- Inspect API docs are more like "how to debug Kuma", I think
+- 
 
 ## Kong Mesh docs
 
@@ -45,7 +47,13 @@ _Note:_ Make a column in the IA rework for persona?
 - Getting Started
   - Install
   - Deploy
+  - Observe (https://kuma.io/docs/1.8.x/explore/observability/#demo-setup)
 - Observability
+  - Grafana
+  - Datadog
+  - Prometheus
+  - Control plane metrics
+  - Multi-zone?
 - Multi-cluster service discovery
 - Zero trust communication
 - Reference
