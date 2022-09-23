@@ -29,11 +29,14 @@ _Note:_ Make a column in the IA rework for persona?
 - The "Overview" page in the Explore section feels like it's repeating info from the Intro section. Or at least the first part did.
 - I'm a bit confused how the gateways, DPs, ingress, and egress all fit together. I'd like that to be described in the beginning and part of a diagram.
 - Inspect API docs are more like "how to debug Kuma", I think
-- 
+- "Requirements" page should be moved up to an "Intro" or "Getting Started" section, or something like that.
+- Topics in the "Policies" section should probably be moved to more specific sections like "Observability" or "Security" etc.
+  - For those, we should call out that they need to understand the basic policy concepts before configuring specific policies.
 
 ## Kong Mesh docs
 
 - **Friction:** The "Enterprise" section isn't necessary. Mesh is only enterprise. Since "Plan and Deploy" only contains a License page, that also leads me to believe there are no "free" features at all. All you could do is install Mesh.
+- Mesh is lacking a proper "What is Kong Mesh" type overview content
 
 ## IA thoughts
 
