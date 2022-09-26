@@ -42,6 +42,9 @@ _Note:_ Make a column in the IA rework for persona?
 - **Friction:** I had this issue with Kuma, too. There's the dp, cp, kumactl, etc. and we're just told "download what you need". I have no idea which of those I need because 1. those instructions come later in the docs and are not linked to in the install docs and 2. those concepts aren't explained well. Maybe it's just me because I don't have experience with this tech. I just pulled everything but Prometheus to test the Docker install steps.
 - So to install Kong Mesh, I actually need to install Kuma images? There are no separate Kong Mesh images? Is the Kong Mesh license the only thing that differentiates between Kuma and Kong Mesh?
 - **Harmony:** Docker install and run instructions did work. I was able to look at my mesh in the GUI.
+- Why have an Egress? Is that just to have another layer of abstraction?
+- Got an error when I tried to install the demo-app
+- CA stuff could probably be grouped in a "Security" section? Or would this be zero-trust?
 
 ## IA thoughts
 
