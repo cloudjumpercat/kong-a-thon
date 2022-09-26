@@ -37,6 +37,11 @@ _Note:_ Make a column in the IA rework for persona?
 
 - **Friction:** The "Enterprise" section isn't necessary. Mesh is only enterprise. Since "Plan and Deploy" only contains a License page, that also leads me to believe there are no "free" features at all. All you could do is install Mesh.
 - Mesh is lacking a proper "What is Kong Mesh" type overview content
+- In the "Getting Started" section, we link to Kuma get started docs, so that's something that could be shared. 
+- **Friction:** I find it weird that there's so many "see the Kuma docs for more info" links. As a customer, I'd just want to use Kuma then since that seems to have better doc support (and is free).
+- **Friction:** I had this issue with Kuma, too. There's the dp, cp, kumactl, etc. and we're just told "download what you need". I have no idea which of those I need because 1. those instructions come later in the docs and are not linked to in the install docs and 2. those concepts aren't explained well. Maybe it's just me because I don't have experience with this tech. I just pulled everything but Prometheus to test the Docker install steps.
+- So to install Kong Mesh, I actually need to install Kuma images? There are no separate Kong Mesh images? Is the Kong Mesh license the only thing that differentiates between Kuma and Kong Mesh?
+- **Harmony:** Docker install and run instructions did work. I was able to look at my mesh in the GUI.
 
 ## IA thoughts
 
